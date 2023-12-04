@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+  }
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .produto {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .produto li {
+    text-align: center;
+    margin: 20px;
+  }
+  .produto img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  .adicionar_ao_carrinho {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .preco {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .cam_inic,
+  .cam_prof {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

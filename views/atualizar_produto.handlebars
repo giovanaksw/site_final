@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="/css/login.css">
+<br>
+<h1>Atualizar Produto</h1>
+<br><br>
+    <form action="/atualizar_produto" method="post">
+        <div class="config-container">
+            <div class="config-section">
+                <h3>Configurações Atuais do Produto</h3>
+                <br>
+                <input type="text" name="nome_produto" placeholder="Insira o nome do produto"><br><br>
+                <input type="text" name="cod_produto" placeholder="Insira o código do produto"><br><br>
+                <input type="text" name="modelo" placeholder="Insira o modelo do produto"><br><br>
+                <input type="text" name="marca" placeholder="Insira a marca do produto"><br><br>
+                <input type="text" name="tipo" placeholder="Insira o tipo do produto"><br><br>
+                <input type="text" name="qtde_estoque" placeholder="Insira a quantidade em estoque do produto"><br><br>
+                <input type="text" name="preco" placeholder="Insira o preço do produto"><br><br>
+            </div>
+            <div class="config-section">
+                <h3>Novas configurações do Produto</h3>
+                <br>
+                <input type="text" name="novo_nome_produto" placeholder="Insira o novo nome do produto"><br><br>
+                <input type="text" name="novo_cod_produto" placeholder="Insira o novo código do produto"><br><br>
+                <input type="text" name="novo_modelo" placeholder="Insira o novo modelo do produto"><br><br>
+                <input type="text" name="novo_marca" placeholder="Insira a nova marca do produto"><br><br>
+                <input type="text" name="novo_tipo" placeholder="Insira o novo tipo do produto"><br><br>
+                <input type="text" name="novo_qtde_estoque" placeholder="Insira a nova quantidade em estoque do produto"><br><br>
+                <input type="text" name="novo_preco" placeholder="Insira o novo preço do produto"><br><br>
+            </div>
+        </div>
+        {{#if msg}}
+            <p>{{msg}}</p>
+        {{else}}
+            <p>{{msg2}}</p>
+        {{/if}}
+
+        <button id="att" type="submit">Atualizar</button>
+    </form>
+
+
+

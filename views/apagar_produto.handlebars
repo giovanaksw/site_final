@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="/css/login.css">
+<h1>Apagar produto</h1>
+
+    <form action="/apagar_produto" method="post">
+        <div class="config-container">
+                <h3>Informações do Produto</h3>
+                <br>
+                <input type="text" name="nome_produto" placeholder="Insira o nome do produto que você deseja apagar"><br><br>
+                <input type="text" name="cod_produto" placeholder="Insira o código do produto que você deseja apagar"><br><br>
+                <input type="text" name="modelo" placeholder="Insira o modelo do produto que você deseja apagar"><br><br>
+                <input type="text" name="marca" placeholder="Insira a marca do produto que você deseja apagar"><br><br>
+                <input type="text" name="tipo" placeholder="Insira o tipo do produto que você deseja apagar"><br><br>
+                <input type="text" name="qtde_estoque" placeholder="Insira a quantidade em estoque do produto que você deseja apagar"><br><br>
+                <input type="text" name="preco" placeholder="Insira o preço do produto que você deseja apagar"><br><br>
+        </div>
+        {{#if msg}}
+            <p>{{msg}}</p>
+        {{else}}
+            <p>{{msg2}}</p>
+        {{/if}}
+
+        <button id="apg" type="submit">Apagar</button>
+    </form>

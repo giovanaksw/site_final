@@ -1,0 +1,38 @@
+#carrinho-container {
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 20px; 
+}
+h1 {
+    color: #333; 
+    text-align: center; 
+}
+#itens_carrinho {
+    list-style-type: none; 
+    padding: 0; 
+}
+#itens_carrinho li {
+    border-bottom: 1px solid #ccc; 
+    padding: 10px; 
+    margin-bottom: 10px;
+}
+.total {
+    text-align: center;
+}
+.btns {
+    text-align: center; 
+    margin-top: 15px; 
+}
+button {
+    background-color: #4CAF50; 
+    color: #fff; 
+    padding: 10px 15px; 
+    border: none; 
+    cursor: pointer; 
+    margin-right: 10px; 
+}
+#mensagem_compra {
+    color: #333;
+    text-align: center; 
+    margin-top: 15px; 
+}
